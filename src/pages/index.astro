@@ -1,0 +1,25 @@
+---
+import LogInfo from "../components/LogInfo.astro";
+import Navigation from "../components/Navigation.astro";
+import NavigationPoint from "../components/NavigationPoint.astro";
+import Library from "../components/Library.astro";
+import "../css/layout.css"
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Spotify</title>
+</head>
+<body>
+	<section class="leftGrid">
+		<Navigation />
+		<Library />
+	</section>
+
+	<section class="rightGrid">
+		<LogInfo /> 
+	</section>
+</body>
+</html>

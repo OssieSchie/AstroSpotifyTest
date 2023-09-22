@@ -1,0 +1,20 @@
+---
+import NavigationPoint from "./NavigationPoint.astro";
+---
+<section>
+<NavigationPoint imgSrc="../../public/images/logo-alt.svg" imgAlt="logo" navPointDesc="Spotify"/>
+<NavigationPoint imgSrc="../../public/images/home.svg" imgAlt="home" navPointDesc="home"/>
+<NavigationPoint imgSrc="../../public/images/search-icon.svg" imgAlt="search" navPointDesc="search"/>
+</section>
+
+<!-- <div class="navGrid">
+<img src={imgSrc} alt={ImgAlt}> <h3>{navPointDesc}</h3>
+</div> -->
+
+<style>
+    section{
+        padding-left: 1rem;
+        background-color: rgb(37, 37, 39);
+        border-radius: 10px;
+    }
+</style>
